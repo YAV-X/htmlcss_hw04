@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Gilroy Regular';
+    src: url('./fonts/Gilroy-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('./fonts/Gilroy-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy Semibold';
+    src: url('./fonts/Gilroy-Semibold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('./fonts/Gilroy-Medium.woff2');
+}
+
+body {
+    /* плавный скрол */
+    scroll-behavior: smooth;
+    background: #fff;
+    font-family: 'Gilroy Bold';
+    font-weight: 400;
+    color: #000;
+}
+
+img {
+    /* вместо тега div */
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 47px;
+    margin-bottom: 84px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigationLinks {
+    font-family: 'Gilroy Semibold';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    width: 533px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headerLink {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerLink:hover {
+    color: #f25822;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 155px;
+}
+
+.mainContent__left {
+    width: 522px;
+}
+
+.mainContent__left h1 {
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 17px;
+}
+
+.mainContent__left p {
+    width: 466px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+    font-family: 'Gilroy Medium';
+    margin-bottom: 37px;
+}
+
+.mainContent__left-btns {}
+
+.mainContentBtn {
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    margin-right: 74px;
+    cursor: pointer;
+}
+
+.mainContentBtnPlay {
+    background: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 97px 0 96px 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+}
